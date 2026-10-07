@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <title>
+        profile
+    </title>
+<body>
+    <h2>Library Member Profile</h2>
+   
+    <p>This is our first Day</p>
+
+    
+    <I><p><b>This is Italic and bold both</b></p></I>
+
+
+    <div>This is Block 1</div>
+    <div>This is Block 2</div>
+
+    <span>This is Inline 1</span>
+    <span>This is Inline 2</span>
+
+
+    <a href="https://portal.aiub.edu" target="_blank">AIUB Portal</a>
+
+    <br /><br />
+
+    <table border="1">
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Image</th>
+      </tr>
+
+      <tr>
+        <td>2222</td>
+        <td>NAYEM</td>
+        <td>24-57976-2student@aiub.edu</td>
+        <td>
+          <img
+            src="https://i.pinimg.com/1200x/3d/83/ee/3d83ee8f9db2130ff8679efed28af26c.jpg"
+            width="100" height="100" alt=""/>
+        </td>
+      </tr>
+    </table>
+
+    <br />
+
+
+<h2>Membership Registration Form</h2>
+
+<form action="" method="get">
+
+<table>
+
+    <tr>
+        <td><label for="name">Name</label></td>
+        <td>
+            <input type="text" id="name" name="name" placeholder="Enter your Name" required>
+        </td>
+    </tr>
+
+    <tr>
+        <td><label for="email">Email</label></td>
+        <td>
+            <input type="email" id="email" name="email" placeholder="Enter Your email" required>
+        </td>
+    </tr>
+
+    <tr>
+        <td><label for="password">Password</label></td>
+        <td>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+        </td>  
+    </tr>
+
+    <tr>
+        <td><label for="age">Age</label></td>
+        <td>
+            <input type="number" id="age" name="age" placeholder="Enter Age ">
+        </td>
+    </tr>
+
+   
+    <tr>
+        <td><label for="dob">DOB</label></td>
+        <td><input type="date" id="dob" name="dob"></td>
+    </tr>
+
+    <tr>
+        <td><label for="gender">Gender</label></td>
+        <td>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Female</label>
+        </td>
+    </tr>
+
+
+     <tr>
+        <td><label for="Address"></label>Address</td>
+        <td>
+            <textarea name="address" id="address"></textarea>
+        </td>
+
+    </tr>
+    <tr>
+
+    <td><label for="type">Member Type</label></td>
+    <td>
+    <select name="type" id="type">
+        <option value="cse">CSE</option>
+        <option value="eee">EEE</option>
+        <option value="bba">BBA</option>
+    </select>
+    </td>
+    </tr>
+    <tr>
+
+
+        <td><label for="file">File</label></td>
+        <td>
+            <input type="file" id="file" name="file" value="Upload file">
+        </td>
+</tr>
+
+<tr>
+    <button type="submit">SUBMIT</button>
+</tr>
+</table>
+</form>
+</body>
+    </html>
